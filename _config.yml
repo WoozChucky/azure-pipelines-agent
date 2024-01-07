@@ -1,0 +1,8 @@
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+title: Docker Azure Pipelines SelfHosted Agent
+description: Docker based agent for Azure Pipelines with Optional Docker + .NET SDK 8.0 built in
+
+show_downloads: true
