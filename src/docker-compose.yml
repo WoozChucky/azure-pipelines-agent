@@ -1,0 +1,13 @@
+version: "3"
+services:
+  azure-devops-agent:
+    build: .
+    environment:
+      - AZP_URL=https://dev.azure.com/your-organization
+      - AZP_TOKEN=your-token
+      - AZP_AGENT_NAME=your-agent-name
+      - AZP_POOL=your-pool
+      - AZP_WORK=_work
+    restart: unless-stopped
+    #volumes: Uncomment this if you want to use docker in docker
+    #  - /var/run/docker.sock:/var/run/docker.sock
