@@ -6,7 +6,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/woozchucky/azure-pipelines-agent.svg?style=flat-square)](https://hub.docker.com/r/woozx/azure-pipelines-agent)
 [![license](https://img.shields.io/github/license/woozchucky/azure-pipelines-agent.svg?style=flat-square)](LICENSE)
 
-> Supports `amd64`, `arm` and `arm64`
+> Supports `amd64`
 
 ## Agent Version
 
