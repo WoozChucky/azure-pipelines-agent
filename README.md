@@ -38,7 +38,7 @@ You can customize the values of the helm deployment by using the following Value
 |-------------------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | `nameOverride`                | Overrides release name                                                                            | `""`                                                     |
 | `fullnameOverride`            | Overrides release fullname                                                                        | `""`                                                     |
-| `image.repository`            | Container image repository                                                                        | `emberstack/azure-pipelines-agent`                       |
+| `image.repository`            | Container image repository                                                                        | `woozx/azure-pipelines-agent`                       |
 | `image.tag`                   | Container image tag                                                                               | `""` (same version as the chart)                         |
 | `image.pullPolicy`            | Container image pull policy                                                                       | `Always` if `image.tag` is `latest`, else `IfNotPresent` |
 | `pipelines.url`               | The Azure base URL for your organization                                                          | `""`                                                     |
