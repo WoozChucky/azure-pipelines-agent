@@ -47,7 +47,7 @@ You can customize the values of the helm deployment by using the following Value
 | `pipelines.pool`              | Agent pool to which the Agent should register.                                                    | `""`                                                     |
 | `pipelines.agent.mountDocker` | Enable to mount the host `docker.sock`                                                            | `false`                                                  |
 | `pipelines.agent.workDir`     | The work directory the agent should use                                                           | `_work`                                                  |
-| `serviceAccount.create`       | Create ServiceAccount                                                                             | `true`                                                   |
+| `serviceAccount.create`       | Create ServiceAccount                                                                             | `false`                                                  |
 | `serviceAccount.name`         | ServiceAccount name                                                                               | _release name_                                           |
 | `serviceAccount.clusterAdmin` | Sets the service account as a cluster admin                                                       | _release name_                                           |
 | `resources`                   | Resource limits                                                                                   | `{}`                                                     |
