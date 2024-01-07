@@ -57,4 +57,4 @@ jobs:
         run: helm registry login registry-1.docker.io -u woozx -p ${{ secrets.DOCKERIO_TOKEN }}
 
       - name: Helm Push OCI Artifact
-        run: helm push *.tgz oci://registry-1.docker.io/docker
+        run: helm push *.tgz oci://registry-1.docker.io/woozx
