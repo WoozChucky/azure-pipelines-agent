@@ -14,7 +14,7 @@ This image will automatically pull and install the latest Azure DevOps version a
 
 ## Deployment
 
-The Azure Pipeliens agent can be deployed in Docker using either `docker run` or `docker compose` or in Kubernetes using Helm (recommended).
+The Azure Pipelines agent can be deployed in Docker using either `docker run` or `docker compose` or in Kubernetes using Helm (recommended).
 
 #### Deployment in `docker`
 
