@@ -33,6 +33,11 @@ RUN apt-get update \
 && apt-get update \
 && apt-get install -y docker-ce-cli
 
+# Install PowerShell
+RUN apt-get update \
+&& apt-get install -y --no-install-recommends \
+        powershell
+
 # Install Remaining OS Deps
 RUN apt-get update \
 && apt-get install -y --no-install-recommends \
